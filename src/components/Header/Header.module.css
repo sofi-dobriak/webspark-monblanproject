@@ -1,0 +1,68 @@
+.header {
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.12), inset 0 12px 24px 0 rgba(0, 0, 0, 0.12);
+  background-color: rgba(255, 255, 255, 0.67);
+  padding-top: 6px;
+  padding-bottom: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 86px;
+
+}
+
+.titleDateContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: -0.01em;
+}
+
+.date {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: -0.03em;
+  color: #3d8eda;
+  padding: 6px 12px;
+  border: 1px solid #3d8eda;
+  border-radius: 2px;
+}
+
+.statsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin-bottom: 18px;
+}
+
+.statsText {
+  font-weight: 400;
+  font-size: 14px;
+
+  span {
+    font-weight: 700;
+  }
+}
+
+.formContainer,
+.form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.formContainer {
+  gap: 11px;
+}
+
+.form {
+  gap: 30px;
+}
