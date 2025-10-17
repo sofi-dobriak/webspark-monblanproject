@@ -1,7 +1,8 @@
 .statsSection {
   padding: 18px 0;
-  max-width: 834px;
-  margin: auto;
+  width: 100%;
+  max-width: 964px;
+  margin: 0 auto;
 }
 
 .buttonList {
@@ -30,14 +31,18 @@
   }
 }
 
+.active {
+  fill: #3d8eda;
+}
+
 .loadMoreButton {
+  font-weight: 500;
   font-size: 11px;
   letter-spacing: -0.03em;
   color: #929292;
   background-color: transparent;
   border: 1px solid #929292;
   border-radius: 14px;
-  text-align: center;
   padding: 8px;
   min-width: 110px;
   margin: 0 auto;

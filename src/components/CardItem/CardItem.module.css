@@ -1,0 +1,51 @@
+.cardItem {
+  width: 203px;
+  background-color: #fff;
+}
+
+.cardTextBlock {
+  padding: 12px 12px 18px;
+}
+
+.cardStatsBlock {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.todayTitle,
+.dateTitle {
+  margin-bottom: 8px;
+}
+
+.todayItem,
+.dateItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.likes,
+.comments {
+  font-size: 14px;
+}
+
+.statusCreatedDataBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardStatus {
+  font-size: 14px;
+}
+
+.cardCreated {
+  font-size: 12px;
+}

@@ -26,14 +26,14 @@
 
     "today": {
       "title": "Today",
-      "likes": "128",
-      "comments": "31"
+      "likes": 128,
+      "comments": 31
     },
 
     "date": {
-      "date": "9-08-2016",
-      "likes": "67",
-      "comments": "22"
+      "title": "9-08-2016",
+      "likes": 67,
+      "comments": 22
     },
 
     "status": "Image upload",
@@ -67,14 +67,14 @@
 
     "today": {
       "title": "Today",
-      "likes": "128",
-      "comments": "31"
+      "likes": 128,
+      "comments": 31
     },
 
     "date": {
-      "date": "9-08-2016",
-      "likes": "67",
-      "comments": "22"
+      "title": "9-08-2016",
+      "likes": 67,
+      "comments": 22
     },
 
     "status": "Image upload",
@@ -108,14 +108,14 @@
 
     "today": {
       "title": "Today",
-      "likes": "128",
-      "comments": "31"
+      "likes": 128,
+      "comments": 31
     },
 
     "date": {
-      "date": "9-08-2016",
-      "likes": "67",
-      "comments": "22"
+      "title": "9-08-2016",
+      "likes": 67,
+      "comments": 22
     },
 
     "status": "Image upload",
@@ -149,14 +149,14 @@
 
     "today": {
       "title": "Today",
-      "likes": "128",
-      "comments": "31"
+      "likes": 128,
+      "comments": 31
     },
 
     "date": {
-      "date": "9-08-2016",
-      "likes": "67",
-      "comments": "22"
+      "title": "9-08-2016",
+      "likes": 67,
+      "comments": 22
     },
 
     "status": "Image upload",
@@ -190,14 +190,14 @@
 
     "today": {
       "title": "Today",
-      "likes": "128",
-      "comments": "31"
+      "likes": 128,
+      "comments": 31
     },
 
     "date": {
-      "date": "9-08-2016",
-      "likes": "67",
-      "comments": "22"
+      "title": "9-08-2016",
+      "likes": 67,
+      "comments": 22
     },
 
     "status": "Image upload",
@@ -231,14 +231,14 @@
 
     "today": {
       "title": "Today",
-      "likes": "128",
-      "comments": "31"
+      "likes": 128,
+      "comments": 31
     },
 
     "date": {
-      "date": "9-08-2016",
-      "likes": "67",
-      "comments": "22"
+      "title": "9-08-2016",
+      "likes": 67,
+      "comments": 22
     },
 
     "status": "Image upload",
@@ -272,14 +272,14 @@
 
     "today": {
       "title": "Today",
-      "likes": "128",
-      "comments": "31"
+      "likes": 128,
+      "comments": 31
     },
 
     "date": {
-      "date": "9-08-2016",
-      "likes": "67",
-      "comments": "22"
+      "title": "9-08-2016",
+      "likes": 67,
+      "comments": 22
     },
 
     "status": "Image upload",
@@ -297,35 +297,36 @@
         "webp": {
           "small": "/images/cards/card-8@2x.webp",
           "big": "/images/cards/card-8@2x.webp"
+        }
+      },
+      "table": {
+        "png": {
+          "small": "/images/table/row-8.png",
+          "big": "/images/table/row-8@2x.png"
         },
-        "table": {
-          "png": {
-            "small": "/images/table/row-8.png",
-            "big": "/images/table/row-8@2x.png"
-          },
-          "webp": {
-            "small": "/images/table/row-8@2x.webp",
-            "big": "/images/table/row-8@2x.webp"
-          }
+        "webp": {
+          "small": "/images/table/row-8@2x.webp",
+          "big": "/images/table/row-8@2x.webp"
         }
       }
     },
 
     "today": {
       "title": "Today",
-      "likes": "128",
-      "comments": "31"
+      "likes": 128,
+      "comments": 31
     },
 
     "date": {
-      "date": "9-08-2016",
-      "likes": "67",
-      "comments": "22"
+      "title": "9-08-2016",
+      "likes": 67,
+      "comments": 22
     },
 
     "status": "Image upload",
     "created": "11-04-2016"
   },
+
   {
     "id": 9,
     "img": {
@@ -343,14 +344,14 @@
 
     "today": {
       "title": "Today",
-      "likes": "128",
-      "comments": "31"
+      "likes": 128,
+      "comments": 31
     },
 
     "date": {
-      "date": "9-08-2016",
-      "likes": "67",
-      "comments": "22"
+      "title": "9-08-2016",
+      "likes": 67,
+      "comments": 22
     },
 
     "status": "Image upload",

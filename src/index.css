@@ -52,10 +52,6 @@
   --hover-color: #3d8eda;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: var(--main-font-family);
   font-size: var(--font-size);
