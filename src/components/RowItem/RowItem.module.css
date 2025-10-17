@@ -1,0 +1,50 @@
+.rowItem {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #fff;
+  padding-right: 80px;
+  margin-bottom: 8px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.rowStatsBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: 100%
+}
+
+.todayTitle,
+.dateTitle {
+  margin-bottom: 8px;
+}
+
+.todayList,
+.dateList {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.todayItem,
+.dateItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.rowStatus {
+  margin-bottom: 8px;
+}
+
+.likes,
+.comment,
+.rowCreated {
+  font-size: 14px;
+}

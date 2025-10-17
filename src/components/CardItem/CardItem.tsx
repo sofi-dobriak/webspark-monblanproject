@@ -51,13 +51,13 @@ export default function CardItem({ id, img, today, date, status, created }: Data
                 <svg width={18} height={18}>
                   <use href='/images/icons.svg#icon-heart'></use>
                 </svg>
-                <p>{date.likes}</p>
+                <p className={s.likes}>{date.likes}</p>
               </li>
               <li className={s.dateItem}>
                 <svg width={18} height={18}>
                   <use href='/images/icons.svg#icon-comment'></use>
                 </svg>
-                <p>{date.comments}</p>
+                <p className={s.comments}>{date.comments}</p>
               </li>
             </ul>
           </div>
