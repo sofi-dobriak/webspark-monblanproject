@@ -1,14 +1,75 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/montserrat-v31-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 400;
+  src: url('../fonts/roboto-v49-latin-regular.woff2') format('woff2');
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v49-latin-500.woff2') format('woff2');
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v49-latin-700.woff2') format('woff2');
+}
+
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --second-font-family: "Montserrat", sans-serif;
+
+  --font-size: 16px;
+
+  --main-font-weight: 500;
+  --secondary-font-weight: 700;
+  --tertiary-font-weight: 400;
+
+  --main-text-color: #000;
+  --secondary-text-color: #3d8eda;
+  --tertiary-text-color: #636264;
+
+  --main-bg-color: #fafafa;
+  --secondary-bg-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font-family);
+  font-size: var(--font-size);
+  font-weight: var(--main-font-weight);
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
