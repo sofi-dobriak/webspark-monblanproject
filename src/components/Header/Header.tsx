@@ -4,11 +4,13 @@ import s from './Header.module.css';
 export default function Header() {
   return (
     <header className={s.header}>
-      <picture>
-        <source srcSet='/images/logo.webp 1x, /images/logo@2x.webp 2x' type='image/webp' />
-        <source srcSet='/images/logo.png 1x, /images/logo@2x.png 2x' type='image/png' />
-        <img src='/images/logo.png' alt='Logo' width='138' height='138' />
-      </picture>
+      <a href='/'>
+        <picture>
+          <source srcSet='/images/logo.webp 1x, /images/logo@2x.webp 2x' type='image/webp' />
+          <source srcSet='/images/logo.png 1x, /images/logo@2x.png 2x' type='image/png' />
+          <img src='/images/logo.png' alt='Logo' width='138' height='138' />
+        </picture>
+      </a>
 
       <div className={s.headerTextBlockWrapper}>
         <div className={s.titleDateContainer}>
