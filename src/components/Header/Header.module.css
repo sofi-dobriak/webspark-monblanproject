@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 86px;
 }
 
@@ -63,4 +64,36 @@
 
 .form {
   gap: 30px;
+}
+
+@media screen and (max-width:767px) {
+  .header {
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width:395px) {
+
+  .titleDateContainer,
+  .statsList,
+  .formContainer,
+  .form {
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width:379px) {
+
+  .titleDateContainer,
+  .statsList,
+  .formContainer,
+  .form {
+    justify-content: center;
+    margin-bottom: 28px;
+  }
+
+  .formContainer,
+  .form {
+    margin-bottom: 0;
+  }
 }

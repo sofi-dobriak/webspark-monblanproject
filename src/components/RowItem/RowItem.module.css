@@ -48,3 +48,39 @@
 .rowCreated {
   font-size: 14px;
 }
+
+@media screen and (max-width:767px) {
+  .rowItem {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 0;
+    gap: 0;
+    margin-bottom: 12px;
+  }
+
+  .rowImage {
+    margin-bottom: 12px;
+  }
+
+  .rowStatsBlock {
+    padding: 4px;
+  }
+
+  .todayItem,
+  .dateItem {
+    gap: 2px;
+  }
+}
+
+@media screen and (max-width:360px) {
+  .rowStatsBlock {
+    justify-content: center;
+    gap: 24px;
+  }
+
+
+  .todayList,
+  .dateList {
+    gap: 10px;
+  }
+}
