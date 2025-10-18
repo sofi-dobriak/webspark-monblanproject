@@ -4,7 +4,7 @@ import type { Data } from '../../types/data';
 export default function CardItem({ id, img, today, date, status, created }: Data) {
   return (
     <li className={s.cardItem} key={id}>
-      <picture>
+      <picture className={s.cardPicture}>
         <source
           srcSet={`${img.cards?.webp.small} 1x, ${img.cards?.webp.small} 2x`}
           type='image/webp'
@@ -16,7 +16,7 @@ export default function CardItem({ id, img, today, date, status, created }: Data
         <img
           src={img.cards?.png.small}
           alt='Stats image'
-          width='203'
+          width='202'
           height='203'
           className={s.cardImage}
         />

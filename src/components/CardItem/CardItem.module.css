@@ -1,6 +1,12 @@
 .cardItem {
   width: 203px;
   background-color: #fff;
+  border: 1px solid transparent;
+  transition: border-color 0.25s ease;
+
+  &:hover {
+    border-color: #3d8eda;
+  }
 }
 
 .cardTextBlock {

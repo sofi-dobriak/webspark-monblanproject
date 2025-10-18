@@ -4,7 +4,7 @@ import type { Data } from '../../types/data';
 export default function RowItem({ id, img, today, date, status, created }: Data) {
   return (
     <li className={s.rowItem} key={id}>
-      <picture>
+      <picture className={s.rowPicture}>
         <source
           srcSet={`${img.table?.webp.small} 1x, ${img.table?.webp.small} 2x`}
           type='image/webp'
