@@ -36,7 +36,6 @@ export default function Header() {
 
         <div className={s.formContainer}>
           <h2 className={s.formTitle}>Date</h2>
-
           <DateInput />
         </div>
       </div>

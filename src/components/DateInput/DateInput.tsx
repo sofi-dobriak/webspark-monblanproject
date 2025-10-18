@@ -72,7 +72,7 @@ export default function DateInput() {
         />
 
         <button
-          onClick={() => setStartDate(null)}
+          onClick={() => setEndDate(null)}
           className={s.clearDateButton}
           type='button'
           aria-label='Button for clear date input'

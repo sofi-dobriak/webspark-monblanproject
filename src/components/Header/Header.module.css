@@ -65,6 +65,10 @@
   .header {
     gap: 40px;
   }
+
+  .formContainer {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width:395px) {
@@ -79,8 +83,7 @@
 @media screen and (max-width:379px) {
 
   .titleDateContainer,
-  .statsList,
-  .formContainer {
+  .statsList {
     justify-content: center;
     margin-bottom: 28px;
   }
