@@ -5,7 +5,7 @@ import CardItem from '../CardItem/CardItem';
 import type { Data } from '../../types/data';
 
 export default function CardList() {
-  const [cards, setCards] = useState<Data[]>(data);
+  const [cards] = useState<Data[]>(data);
   const cardsToDisplay = cards.slice(0, 8);
 
   return (

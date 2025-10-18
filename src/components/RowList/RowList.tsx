@@ -5,7 +5,7 @@ import RowItem from '../RowItem/RowItem';
 import { useState } from 'react';
 
 export default function RowList() {
-  const [tableList, setTableList] = useState<Data[]>(list);
+  const [tableList] = useState<Data[]>(list);
 
   return (
     <ul className={s.rowList}>
