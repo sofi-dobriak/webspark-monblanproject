@@ -1,3 +1,4 @@
+import DateInput from '../DateInput/DateInput';
 import s from './Header.module.css';
 
 export default function Header() {
@@ -37,8 +38,9 @@ export default function Header() {
           <h2 className={s.formTitle}>Date</h2>
 
           <form className={s.form}>
-            <input type='date' />
-            <input type='date' />
+            {/* <input type='date' /> */}
+            {/* <input type='date' /> */}
+            <DateInput />
           </form>
         </div>
       </div>

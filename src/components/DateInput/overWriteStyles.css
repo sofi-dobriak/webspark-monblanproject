@@ -1,0 +1,108 @@
+.react-datepicker__month-container {
+  width: 200px;
+  height: auto;
+}
+
+.react-datepicker__header {
+  background-color: transparent !important;
+  border-bottom: none;
+  padding: 12px 0 8px;
+}
+
+.react-datepicker__navigation {
+  top: 6px;
+}
+
+.react-datepicker__month {
+  margin: 0;
+}
+
+.react-datepicker__current-month {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.react-datepicker__day-names {
+  margin-bottom: 6px;
+}
+
+.react-datepicker__day-name {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+}
+
+.react-datepicker__week {
+  margin: 2px 0;
+}
+
+.react-datepicker__day {
+  margin: 0;
+}
+
+.react-datepicker__day,
+.react-datepicker__day--outside-month {
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+}
+
+.react-datepicker__day:not([aria-disabled=true]):hover,
+.react-datepicker__day.react-datepicker__day--selected {
+  background-color: #3d8eda;
+  color: #fff;
+}
+
+.react-datepicker__day {
+  color: #333437;
+}
+
+.react-datepicker__day.react-datepicker__day--outside-month {
+  color: #929292;
+}
+
+.react-datepicker__day--weekend {
+  background-color: #f4f4f4;
+  border-radius: 2px;
+}
+
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle {
+  stroke: #d2d1d2;
+  fill: #fff;
+  color: #fff;
+}
+
+.react-datepicker__triangle {
+  left: 20px !important;
+  top: -9px !important;
+  margin-left: 0 !important;
+  height: 9px;
+}
+
+.react-datepicker__navigation-icon::before,
+.react-datepicker__navigation-icon::after {
+  border-color: #000;
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  content: "";
+  display: block;
+  height: 6px;
+  position: absolute;
+  top: 6px;
+  width: 6px;
+}
+
+.react-datepicker__navigation--previous .react-datepicker__navigation-icon::after {
+  left: -6px;
+  transform: rotate(-135deg);
+}
+
+.react-datepicker__navigation--next .react-datepicker__navigation-icon::after {
+  right: -6px;
+  transform: rotate(45deg);
+}
+
+.react-datepicker__navigation:hover .react-datepicker__navigation-icon::before,
+.react-datepicker__navigation:hover .react-datepicker__navigation-icon::after {
+  border-color: #3d8eda;
+}

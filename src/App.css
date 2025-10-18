@@ -12,7 +12,7 @@
   }
 
   &::before {
-    background-image: url(/public/images/vector.png);
+    background-image: url(/public/images/bg-decor-1.png);
     top: 0;
     left: 0;
     max-width: 690px;
