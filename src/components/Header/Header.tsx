@@ -37,11 +37,7 @@ export default function Header() {
         <div className={s.formContainer}>
           <h2 className={s.formTitle}>Date</h2>
 
-          <form className={s.form}>
-            {/* <input type='date' /> */}
-            {/* <input type='date' /> */}
-            <DateInput />
-          </form>
+          <DateInput />
         </div>
       </div>
     </header>

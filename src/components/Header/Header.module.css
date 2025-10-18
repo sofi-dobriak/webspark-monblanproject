@@ -51,8 +51,7 @@
   }
 }
 
-.formContainer,
-.form {
+.formContainer {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -60,10 +59,6 @@
 
 .formContainer {
   gap: 11px;
-}
-
-.form {
-  gap: 30px;
 }
 
 @media screen and (max-width:767px) {
@@ -76,8 +71,7 @@
 
   .titleDateContainer,
   .statsList,
-  .formContainer,
-  .form {
+  .formContainer {
     gap: 12px;
   }
 }
@@ -86,14 +80,12 @@
 
   .titleDateContainer,
   .statsList,
-  .formContainer,
-  .form {
+  .formContainer {
     justify-content: center;
     margin-bottom: 28px;
   }
 
-  .formContainer,
-  .form {
+  .formContainer {
     margin-bottom: 0;
   }
 }

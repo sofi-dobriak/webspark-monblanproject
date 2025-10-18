@@ -32,32 +32,12 @@
   src: url('../fonts/roboto-v49-latin-700.woff2') format('woff2');
 }
 
-:root {
-  --main-font-family: "Roboto", sans-serif;
-  --second-font-family: "Montserrat", sans-serif;
-
-  --font-size: 16px;
-
-  --main-font-weight: 500;
-  --secondary-font-weight: 700;
-  --tertiary-font-weight: 400;
-
-  --main-text-color: #000;
-  --secondary-text-color: #3d8eda;
-  --tertiary-text-color: #636264;
-
-  --main-bg-color: #fafafa;
-  --secondary-bg-color: #fff;
-
-  --hover-color: #3d8eda;
-}
-
 body {
-  font-family: var(--main-font-family);
-  font-size: var(--font-size);
-  font-weight: var(--main-font-weight);
-  color: var(--main-text-color);
-  background-color: var(--main-bg-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fafafa;
 }
 
 .visually-hidden {
