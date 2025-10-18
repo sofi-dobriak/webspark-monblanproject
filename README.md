@@ -7,6 +7,7 @@ The interface imitates a social media profile — displaying posts as image card
 Users can filter posts by date range and switch between grid and list layouts.
 
 
+🔗 [Figma](https://www.figma.com/design/8cEGvKCqHyrVycCy6Xes79/Markup-test--Copy-?node-id=2-349&t=ZIZqNEUX0lKIImZg-1)  
 🔗 [Live Demo](https://webspark-monblanproject.vercel.app/)  
 
 ---
