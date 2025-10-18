@@ -33,6 +33,7 @@ export default function DateInput() {
           className={s.dateInput}
           calendarClassName={s.customCalendar}
         />
+
         <button
           onClick={() => setStartDate(null)}
           className={s.clearDateButton}

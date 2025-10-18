@@ -23,7 +23,7 @@ export default function RowItem({ id, img, today, date, status, created }: Data)
       </picture>
 
       <div className={s.rowStatsBlock}>
-        <div>
+        <div className={s.rowTodayStatsBlockWrapper}>
           <h2 className={s.todayTitle}>{today.title}</h2>
 
           <ul className={s.todayList}>
@@ -42,7 +42,7 @@ export default function RowItem({ id, img, today, date, status, created }: Data)
           </ul>
         </div>
 
-        <div>
+        <div className={s.rowDateStatsBlockWrapper}>
           <h2 className={s.dateTitle}>{date.title}</h2>
 
           <ul className={s.dateList}>

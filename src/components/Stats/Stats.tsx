@@ -11,6 +11,7 @@ export default function Stats() {
 
   const handleShowTable = () => setCardsVisible(false);
   const handleShowCards = () => setCardsVisible(true);
+
   const handleLoadMore = () => setLoadMore(true);
 
   return (
@@ -21,12 +22,12 @@ export default function Stats() {
             <li className={s.buttonItem}>
               <button
                 onClick={handleShowCards}
-                className={s.buttonButton}
+                className={s.cardButton}
                 aria-label='Button for displaying data in the form of cards'
               >
                 <svg
-                  width='22'
-                  height='22'
+                  width={22}
+                  height={22}
                   className={clsx(s.buttonIcon, cardsVisible && s.active)}
                 >
                   <use href='/images/icons.svg#icon-cards'></use>
@@ -37,12 +38,12 @@ export default function Stats() {
             <li className={s.buttonItem}>
               <button
                 onClick={handleShowTable}
-                className={s.buttonButton}
+                className={s.listButton}
                 aria-label='Button to display data in rows'
               >
                 <svg
-                  width='24'
-                  height='22'
+                  width={24}
+                  height={22}
                   className={clsx(s.buttonIcon, !cardsVisible && s.active)}
                 >
                   <use href='/images/icons.svg#icon-rows'></use>

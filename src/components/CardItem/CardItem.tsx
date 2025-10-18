@@ -24,7 +24,7 @@ export default function CardItem({ id, img, today, date, status, created }: Data
 
       <div className={s.cardTextBlock}>
         <div className={s.cardStatsBlock}>
-          <div>
+          <div className={s.todayStatBlockWrapper}>
             <h2 className={s.todayTitle}>{today.title}</h2>
 
             <ul className={s.todayList}>
@@ -43,7 +43,7 @@ export default function CardItem({ id, img, today, date, status, created }: Data
             </ul>
           </div>
 
-          <div>
+          <div className={s.dateStatBlockWrapper}>
             <h2 className={s.dateTitle}>{date.title}</h2>
 
             <ul className={s.dateList}>

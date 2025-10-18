@@ -10,7 +10,7 @@ export default function Header() {
         <img src='/images/logo.png' alt='Logo' width='138' height='138' />
       </picture>
 
-      <div>
+      <div className={s.headerTextBlockWrapper}>
         <div className={s.titleDateContainer}>
           <h1 className={s.title}>monblanproject</h1>
           <p className={s.date}>Start on 17-02-2016</p>
