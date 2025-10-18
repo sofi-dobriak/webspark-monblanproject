@@ -56,3 +56,9 @@
     color: #3d8eda;
   }
 }
+
+.loadMoreInfo {
+  font-weight: 400;
+  text-align: center;
+  height: 30px;
+}

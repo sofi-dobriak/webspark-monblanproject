@@ -7,9 +7,11 @@ import clsx from 'clsx';
 
 export default function Stats() {
   const [cardsVisible, setCardsVisible] = useState(false);
+  const [loadMore, setLoadMore] = useState(false);
 
   const handleShowTable = () => setCardsVisible(false);
   const handleShowCards = () => setCardsVisible(true);
+  const handleLoadMore = () => setLoadMore(true);
 
   return (
     <main>
@@ -51,13 +53,18 @@ export default function Stats() {
 
           {cardsVisible ? <CardList /> : <RowList />}
 
-          <button
-            aria-label='Button for loading the next part of data'
-            type='button'
-            className={s.loadMoreButton}
-          >
-            LOAD MORE
-          </button>
+          {!loadMore && (
+            <button
+              onClick={handleLoadMore}
+              aria-label='Button for loading the next part of data'
+              type='button'
+              className={s.loadMoreButton}
+            >
+              LOAD MORE
+            </button>
+          )}
+
+          {loadMore && <p className={s.loadMoreInfo}>All data loaded 🎉</p>}
         </Container>
       </section>
     </main>

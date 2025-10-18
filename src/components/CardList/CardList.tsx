@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import s from './CardList.module.css';
-import data from '../../../public/data.json';
+import data from '../../assets/data.json';
 import CardItem from '../CardItem/CardItem';
 import type { Data } from '../../types/data';
 

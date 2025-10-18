@@ -1,5 +1,5 @@
 import s from './RowList.module.css';
-import list from '../../../public/data.json';
+import list from '../../assets/data.json';
 import type { Data } from '../../types/data';
 import RowItem from '../RowItem/RowItem';
 import { useState } from 'react';
